@@ -85,13 +85,11 @@
       "pluginVersion": "7.5.0-pre",
       "targets": [
         {
-          "channel": "plugin/testdata/random-2s-stream",
+          "channel": "plugin/testdata/random-20hz-stream",
           "filter": {
-            "fields": [
-              "Max",
-              "Time"
-            ]
+            "fields": []
           },
+          "hide": false,
           "queryType": "measurements",
           "refId": "A"
         }
